@@ -1,0 +1,10 @@
+<div class="item-container">
+    <div *ngFor="let item of itemArr" class="item">
+      <img class="image" src={{item.url}}>
+      <h3 class="margins" >{{item.itemName}}</h3>
+      <p class="margins" >{{item.description}}</p>
+      <p class="margins" >seller: {{item.sellerName}}</p>
+      <p class="margins" >price: ${{item.itemPrice}}</p>
+      <p class="margins" >condition: {{item.itemCondition}}</p>
+    </div>
+</div>
