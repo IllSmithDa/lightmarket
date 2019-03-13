@@ -1,6 +1,6 @@
 .navbar-container{
     height: 4em;
-    background-color: blue;
+    background-color: lightblue;
     display: flex;
     justify-content: space-between;
     padding-left: 5%;
@@ -24,10 +24,10 @@
 
 .dropdown {
     position: relative;
-    top: 5%;
+    top: 11%;
     margin-left: 1em;
-    margin-right: 1px;
-    height: 91%;
+    margin-right: 2px;
+    height: 80%;
 }
 .dropdown-button {
     cursor: pointer;
@@ -59,11 +59,11 @@
     // width set to 50 percent of browser width;
     width: 90%;
     // height cannot exceed 80% of container size
-    max-height: 80%;
+    height: 70%;
     // position relative to container
     position: relative;
     // move down by 5 percent
-    top: 5%;
+    top: 12%;
     // set font 1.5x larger than default size
     font-size: 150%;
     // inner text padding 
@@ -71,10 +71,10 @@
 }
 
 .search-button {
-    height: 89%;
-    margin-left: 1px;
+    height: 80%;
+    margin-left: 2px;
     position: relative;
-    top: 5%;
+    top: 11%;
     width: 10%;
     cursor: pointer;
 }
