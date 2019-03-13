@@ -18,4 +18,13 @@ export class NavbarComponent implements OnInit {
   goHome = () => {
     window.location.href = "/";
   }
+  
+  onEnter(value: string) { 
+    this.searchTerm = value; 
+    console.log(this.searchTerm)
+  }
+  searchPage = () => {
+    console.log(this.searchTerm);
+    window.location.href = `/result/${this.searchTerm}`
+  }
 }

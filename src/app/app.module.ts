@@ -10,11 +10,13 @@ import { PopularItemsComponent } from './popular-items/popular-items.component';
 import { ItemComponent } from './item/item.component';
 import { ItemPageComponent } from './item-page/item-page.component';
 import { MarginsDirective } from './margins.directive';
+import { ResultpageComponent } from './resultpage/resultpage.component';
 
 const routes: Routes = [
   {path: '', component: HomepageComponent},
   {path: 'account', component: AccountComponent},
   {path: 'item/:itemKey', component:ItemPageComponent},
+  {path: 'result/:term', component:ResultpageComponent},
 ]
 
 @NgModule({
@@ -26,7 +28,8 @@ const routes: Routes = [
     PopularItemsComponent,
     ItemComponent,
     ItemPageComponent,
-    MarginsDirective
+    MarginsDirective,
+    ResultpageComponent
   ],
   imports: [
     BrowserModule,
