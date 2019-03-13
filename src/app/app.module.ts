@@ -13,7 +13,8 @@ import { MarginsDirective } from './margins.directive';
 
 const routes: Routes = [
   {path: '', component: HomepageComponent},
-  {path: 'account', component: AccountComponent}
+  {path: 'account', component: AccountComponent},
+  {path: 'item/:itemKey', component:ItemPageComponent},
 ]
 
 @NgModule({

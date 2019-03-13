@@ -14,6 +14,7 @@ export class PopularItemsComponent implements OnInit {
       sellerName:"kidrock23",
       itemPrice:20,
       itemCondition:"poor",
+      key: "3wd29329"
     },
     {
       itemName: "Microswerve tablet for kids",
@@ -22,6 +23,7 @@ export class PopularItemsComponent implements OnInit {
       sellerName:"tupacssun1",
       itemPrice:300,
       itemCondition:"very good",
+      key:"jf2323k9"
     },
     {
       itemName: "Hb 2008 a5 quad core Desktop",
@@ -30,6 +32,7 @@ export class PopularItemsComponent implements OnInit {
       sellerName:"joesrightgun2",
       itemPrice:200,
       itemCondition:"okay",
+      key:"a2900320"
     },
     {
       itemName: "Predatorware silent gaming tablet",
@@ -38,6 +41,7 @@ export class PopularItemsComponent implements OnInit {
       sellerName:"masterchief117",
       itemPrice: 800,
       itemCondition:"new",
+      key:"v923swe0"
     },
     {
       itemName: "Imoc a7 quad core 2018",
@@ -46,6 +50,7 @@ export class PopularItemsComponent implements OnInit {
       sellerName:"Balmart",
       itemPrice: 2500,
       itemCondition:"new",
+      key:"rie23233"
     },
     {
       itemName: "Imoc a7 quad core 2018",
@@ -54,6 +59,7 @@ export class PopularItemsComponent implements OnInit {
       sellerName:"Balmart",
       itemPrice: 2500,
       itemCondition:"new",
+      key:"rie23233"
     },
     {
       itemName: "Imoc a7 quad core 2018",
@@ -62,6 +68,7 @@ export class PopularItemsComponent implements OnInit {
       sellerName:"Balmart",
       itemPrice: 2500,
       itemCondition:"new",
+      key:"rie23233"
     },    {
       itemName: "Imoc a7 quad core 2018",
       url:"https://image.shutterstock.com/z/stock-photo-laptop-with-blank-screen-on-table-340152863.jpg",
@@ -69,6 +76,7 @@ export class PopularItemsComponent implements OnInit {
       sellerName:"Balmart",
       itemPrice: 2500,
       itemCondition:"new",
+      key:"rie23233"
     },  
   ]
   constructor() { }

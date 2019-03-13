@@ -1,3 +1,14 @@
-<p>
-  item-page works!
-</p>
+<app-navbar></app-navbar>
+<div class="itempage-container">
+  <img class="image" src={{currentObject.url}}>
+  <div class="data">
+      <h1 (click)="goItemPage(item.key)">{{currentObject.itemName}}</h1>
+      <h3>{{currentObject.description}}</h3>
+      <h3>seller: {{currentObject.sellerName}}</h3>
+      <h3>price: ${{currentObject.itemPrice}}</h3>
+      <h3>condition: {{currentObject.itemCondition}}</h3>
+      <h3>key: {{currentObject.key}}</h3>
+      <button class="cart-button">Add to Cart</button>
+      <button class="cart-button" (click)="goBack()">Go Back</button>
+  </div>
+</div>
