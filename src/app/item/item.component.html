@@ -1,6 +1,6 @@
 <div class="item-container">
     <div *ngFor="let item of itemArr" class="item">
-      <img class="image" src={{item.url}} (click)="goItemPage(item.key)">
+      <img class="image" src={{item.url}} (click)="goItemPage(item.key)" />
       <h3 class="margins item-title" (click)="goItemPage(item.key)">{{item.itemName}}</h3>
       <p class="margins">{{item.description}}</p>
       <p class="margins">seller: {{item.sellerName}}</p>
