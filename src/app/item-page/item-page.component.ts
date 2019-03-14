@@ -6,7 +6,7 @@ import { ItempageService } from '../itempage.service';
   styleUrls: ['./item-page.component.scss']
 })
 export class ItemPageComponent implements OnInit {
-  currentObject:object;
+  currentObject:any;
   popularItems = [
     {
       itemName: "Lenova Laptop",
